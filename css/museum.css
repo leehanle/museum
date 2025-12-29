@@ -9,8 +9,33 @@ a {
 ul {
   list-style: none;
 }
+@font-face {
+  font-family: "Soonbatang";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/SunBatang-Light.woff")
+    format("woff");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Soonbatang";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/SunBatang-Medium.woff")
+    format("woff");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Soonbatang";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/SunBatang-Bold.woff")
+    format("woff");
+  font-weight: 700;
+  font-display: swap;
+}
 body {
   background-image: linear-gradient(#fff, #fff5d9);
+  font-family: "Soonbatang", serif;
+  font-weight: 300;
 }
 @media (max-width: 767px) {
   /*header*/

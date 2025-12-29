@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>museum</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+      integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+      integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/museum.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="wrap">
+        <h1>LEEUM</h1>
+        <div class="menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+    </header>
+    <div id="visual">
+      <ul>
+        <li>
+          <div>
+            <img src="img/고미술 소장품.png" alt="고미술 소장품" />
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="img/이불 1998년 이후.png" alt="이불 1998년 이후" />
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="img/까치호랑이.png" alt="까치호랑이" />
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="img/현대미술 소장품.png" alt="현대미술 소장품" />
+          </div>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <div>
+            <img src="img/현대미술 소장품.png" alt="현대미술 소장품" />
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="img/까치호랑이.png" alt="까치호랑이" />
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="img/이불 1998년 이후.png" alt="이불 1998년 이후" />
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="img/고미술 소장품.png" alt="고미술 소장품" />
+          </div>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <div>
+            <img src="img/고미술 소장품.png" alt="고미술 소장품" />
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="img/이불 1998년 이후.png" alt="/이불 1998년 이후.png" />
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="img/까치호랑이.png" alt="까치호랑이" />
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="img/현대미술 소장품.png" alt="현대미술 소장품" />
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div id="container">
+      <section class="hello">
+        <h2>
+          안녕하세요,<br />
+          리움박물관을 이용해 주셔서 감사합니다.
+        </h2>
+      </section>
+      <section class="iconwrap">
+        <ul>
+          <li>
+            <div class="icon"><i class="fa-solid fa-bullhorn"></i></div>
+            <p>리움소식</p>
+          </li>
+          <li>
+            <div class="icon"><i class="fa-solid fa-couch"></i></div>
+            <p>좌석배치도</p>
+          </li>
+          <li>
+            <div class="icon"><i class="fa-solid fa-ticket-simple"></i></div>
+            <p>예매안내</p>
+          </li>
+          <li>
+            <div class="icon"><i class="fa-regular fa-map"></i></div>
+            <p>오시는길</p>
+          </li>
+          <li>
+            <div class="icon"><i class="fa-solid fa-shop"></i></div>
+            <p>편의시설</p>
+          </li>
+          <li>
+            <div class="icon"><i class="fa-solid fa-star"></i></div>
+            <p>이벤트</p>
+          </li>
+          <li>
+            <div class="icon"><i class="fa-solid fa-question"></i></div>
+            <p>FAQ</p>
+          </li>
+        </ul>
+      </section>
+      <section class="thisandthat">
+        <div class="wrap">
+          <div class="news">
+            <h3>새소식</h3>
+            <div class="line"></div>
+            <div class="newsimg">
+              <img src="img/이불 1998년 이후.png" alt="이불 1998년 이후" />
+            </div>
+            <h4>이불 : 1998년 이후</h4>
+            <ul>
+              <li>공동기획 : 리움미술관, M+</li>
+              <li>
+                큐레이터: [리움] 곽준영 전시기획실장, 김혜연 큐레이터 / [M+]
+                정도련 예술감독/학예실장, 써니 청 디자인 및 건축 큐레이터
+              </li>
+              <li>후원 : 삼성카드</li>
+            </ul>
+          </div>
+          <div class="ticket">
+            <h3>티켓오픈</h3>
+            <div class="line"></div>
+            <h4>
+              까치호랑이 虎鵲 프리뷰 및 1차 티켓 <br />
+              오픈 안내
+            </h4>
+            <p>티켓오픈일 2025 - 12 - 18 14:00</p>
+            <div class="dday">D-DAY</div>
+            <div class="line"></div>
+            <h4>까치호랑이 虎鵲 프리뷰 및 1차 티켓 오픈 안내</h4>
+            <p>티켓오픈일 2025 - 12 - 18 14:00</p>
+          </div>
+          <div class="notice">
+            <h3>알림존</h3>
+            <div class="renewal">
+              <div class="cafe">
+                <img src="img/카페.png" alt="카페" />
+              </div>
+              <p>카멜커피 리뉴얼 안내</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="goart">
+        <div class="line"></div>
+        <h3>소장품 / 고미술</h3>
+        <div class="artwrap">
+          <div class="goru">
+            <div class="goruimg">
+              <img
+                src="img/청자철화 주병명 반구병.png"
+                alt="청자철화 주병명 반구병"
+              />
+            </div>
+            <h4>청자철화 주병명 반구병</h4>
+            <p>고려, 11세기</p>
+          </div>
+          <div class="samgug">
+            <div class="samgugimg">
+              <img src="img/금동 투조 관모.png" alt="금동 투조 관모" />
+            </div>
+            <h4>금동 투조 관모</h4>
+            <p>삼국, 5-6세기</p>
+          </div>
+          <div class="samgug2">
+            <div class="samgug2img">
+              <img src="img/수레바퀴모양 토기.png" alt="수레바퀴모양 토기" />
+            </div>
+            <h4>수레바퀴모양 토기</h4>
+            <p>삼국, 5세기</p>
+          </div>
+        </div>
+        <div class="line"></div>
+      </section>
+      <section class="modernart">
+        <h3>소장품 / 현대미술</h3>
+        <div class="artwrap">
+          <div class="naum">
+            <div class="gabo">
+              <img src="img/나움가보.png" alt="나움가보" />
+            </div>
+            <h4>나움가보</h4>
+            <p>공간 안의 선 구성 No.2 | 1949</p>
+          </div>
+          <div class="sifandgang">
+            <div class="riang">
+              <img src="img/시프리앙 가이야르.png" alt="시프리앙 가이야르" />
+            </div>
+            <h4>시프리앙 가이야르</h4>
+            <p>형성 | 2021 / 2025</p>
+            <div class="jung">
+              <img src="img/강익중.png" alt="강익중" />
+            </div>
+            <h4>강익중</h4>
+            <p>영어를 배우자 | 1991-1996</p>
+          </div>
+          <div class="gangsu">
+            <div class="ho">
+              <img src="img/강석호.png" alt="강석호" />
+            </div>
+            <h4>강석호</h4>
+            <p>무제 | 2005</p>
+          </div>
+        </div>
+      </section>
+      <section class="more">
+        <h2>더 많은 소장품 보러가기</h2>
+        <div class="plus">
+          <i class="fa-solid fa-plus"></i>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="line"></div>
+      <div class="infowrap">
+        <div class="logo">
+          <h1>LEEUM</h1>
+          <h1>LEEUM</h1>
+          <h1>LEEUM</h1>
+        </div>
+        <div class="info">
+          <p>Leeum Museum of Art, All Rights Reserved.</p>
+          <div class="four">
+            <p>미술관 소개</p>
+            <p>공지</p>
+            <p>보도자료</p>
+            <p>법인회원</p>
+          </div>
+          <div class="three">
+            <p>대표전화. 02-2014-6900</p>
+            <p>리움미술관</p>
+            <p>04348 서울특별시 용산구 이태원로55길 60-16</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      gsap.registerPlugin(ScrollTrigger);
+
+      gsap
+        .timeline({
+          scrollTrigger: {
+            trigger: ".hello",
+            start: "top 80%",
+            end: "bottom 60%",
+            scrub: 2,
+            // markers: true,
+          },
+        })
+        .fromTo(".hello", { opacity: 0, y: 300 }, { opacity: 1, y: 0 });
+
+      gsap
+        .timeline({
+          scrollTrigger: {
+            trigger: ".more",
+            start: "top 90%",
+            end: "bottom 85%",
+            scrub: 2,
+            markers: true,
+          },
+        })
+        .fromTo(".more", { opacity: 0, y: 300 }, { opacity: 1, y: 0 });
+    </script>
+  </body>
+</html>
